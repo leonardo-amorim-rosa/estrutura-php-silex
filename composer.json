@@ -1,0 +1,32 @@
+{
+	"name": "estrutura_basica",
+	"authors": [
+		{
+			"name": "Leonardo",
+			"email": "leoamorimrosa@gmail.com"
+		}
+	],
+
+	"require": {
+		"php":"^5.4",
+		"respect/rest": "0.6.0",
+		"silex/silex": "~1.3",
+		"twig/twig": "^1.23",
+		"monolog/monolog": "^1.17"
+	},
+	
+	"require-dev": {
+		"phpunit/phpunit": "4.8.x-dev"
+	},
+
+	"autoload": {
+		"psr-0": { 
+			"": ["src/", "views/"]
+		}
+	},
+	
+	"config": {
+		"bin-dir": "bin/"		
+	}
+	
+}
